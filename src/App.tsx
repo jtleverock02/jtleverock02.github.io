@@ -18,22 +18,7 @@ const Navbar = () => {
 };
 
 function App() {
-  return (
-    <div className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen">
-      <Navbar />
-      <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-center p-10"
-      >
-        <h1 className="text-5xl font-bold">Welcome to My Portfolio</h1>
-        <p className="mt-4 text-lg text-gray-300">I build/maintain embedded systems & and love learning.</p>
-      </motion.div>
-      <Projects />
-      <Resume />
-    </div>
-  );
+  return <h1 style={{ color: 'white' }}>Hello from App!</h1>;
 }
 
 export default App;
