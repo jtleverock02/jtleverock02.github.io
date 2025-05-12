@@ -3,7 +3,7 @@
 //import Resume from './components/resume';
 
 
-const Navbar = () => {
+/*const Navbar = () => {
   return (
     <nav className="bg-gray-900 text-white shadow-md py-4 px-8 flex justify-between items-center sticky top-0 z-50">
       <h1 className="text-2xl font-bold">Jackson Leverock</h1>
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+};*/
 
 function App() {
   return <h1 style={{ color: 'white' }}>Hello from App!</h1>;
