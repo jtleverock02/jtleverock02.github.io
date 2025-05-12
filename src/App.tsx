@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import Projects from './components/projects';
-import Resume from './components/resume';
+//import { motion } from 'framer-motion';
+//import Projects from './components/projects';
+//import Resume from './components/resume';
 
 
 const Navbar = () => {
